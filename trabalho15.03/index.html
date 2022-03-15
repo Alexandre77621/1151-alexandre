@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Minha pagina</title>
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Press+Start+2P&display=swap" rel="stylesheet">
+</head>
+<body>
+   <div id="pag">
+       <header>  
+           <h3> PAGINA SOBRE JOGOS </h3>
+           <p> SEJA BEM VINDO </p>
+       </header>
+        <nav id="Menu"> 
+            <ul>
+                <li><a href="index.html">Inicio</a></li>
+                <li><a href="Historia.html">Historia</a></li>
+                <li><a href="Missão.html">Missão</a></li>
+            </ul>
+        </nav>
+       <section> 
+                                        
+        <img src="img/transferir.jfif" alt="">
+        <h2> Subway Surfers </h2>
+        <h3>É um jogo mobile que fez muito sucesso no ano de 2012, e ate hoje continua famoso pelo fato de ser um jogo mobile e bem leve, que funciona em quase todos os celulares.</h3>
+        
+        <img src="img/transferir (2).jfif" alt="">
+        <h2> Temple Rum </h2>
+        <h3> É um jogo eletrônico de celular, que teve muito sucesso no ano de 2012 e tem quase o mesmo estilo de jogo do Subway Surfers. </h3>
+        </section>
+       <footer> Rodapé </footer>
+   </div> 
+
+    <div id="popup">
+        <div id="fechar" onclick="fechar()"> X </div>
+        <div id="quadro">
+            <h2> Identifique-se </h2>
+            <form name="form" method="post">
+                <input type="text" name="login" placeholder="Login">
+                <input type="password" name="senha" placeholder="Senha">
+                <input type="button"  value="ok" onclick="verifica()">
+                <p id="msg"> Acesso Negado. Usuário ou Senha Inválido</p>
+                <a href="#"> Não possuo Cadastro</a>
+            </form>
+        </div>
+    </div>
+
+    <script src="js/script.js"></script>
+</body>
+</html>
